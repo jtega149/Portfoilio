@@ -1,5 +1,7 @@
 # Portfolio
 
+[Link to John Ortega Portfoilio](https://john-ortega.com/)
+
 A minimalist, high-tech personal portfolio — black with phosphor-green accents,
 HUD framing, and a terminal-flavored type system. Built with **React + TypeScript +
 Vite** and **react-router-dom**.
