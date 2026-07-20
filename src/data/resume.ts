@@ -9,5 +9,5 @@ import type { Resume } from "./types";
 export const resume: Resume = {
   file: "/resume.pdf",
   downloadName: "John_Ortega_Resume.pdf",
-  updated: "June 2026",
+  updated: "Jul 2026",
 };
