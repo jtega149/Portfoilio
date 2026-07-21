@@ -89,6 +89,14 @@ export const projects: Project[] = [
 
 export const openSourceContributions: OpenSourceContribution[] = [
   {
+    id: "openwearables",
+    project: "Implement deregistration for providers with Cloud API",
+    url: "https://github.com/the-momentum/open-wearables/pull/1320",
+    role: "Contributor - PR #682",
+    description: "Contributed to Open Wearables, an open-source wearable data platform, by adding provider-side OAuth deregistration for Fitbit, Oura, Polar, Ultrahuman, and Whoop. Previously, disconnecting or deleting a user cleared local tokens but often left the app authorized with the provider. I implemented each provider’s revoke/deregister API call, extended the shared OAuth interface with an optional provider user id for Polar, and wired it through disconnect and user-delete flows. I also added Polar unit tests covering success, HTTP errors, and missing user id validation.",
+    tech: ["Python", "FastAPI", "CI/CD"]
+  },
+  {
     id: "innerwarden",
     project: "InnerWarden: AWS Instance Metadata Access From Non-Root Users",
     url: "https://github.com/InnerWarden/innerwarden/pull/1130",
