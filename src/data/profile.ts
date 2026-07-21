@@ -29,7 +29,7 @@ export const profile: Profile = {
     { category: "Languages", items: ["Python", "TypeScript", "JavaScript", "Java", "C++", "HTML"] },
     { category: "Frontend", items: ["React", "Next.js", "Vite", "Tailwind CSS"] },
     { category: "Backend", items: ["Node.js", "Django", "Spring Boot", "PostgreSQL/MySQL", "Firebase/MongoDB", "Docker", "AWS", "GCP"] },
-    { category: "Focus", items: ["Cloud Engineering", "AI Engineering"] },
+    { category: "Focus", items: ["Software Engineering", "Cloud Engineering", "AI Engineering"] },
   ],
 
   socials: [
