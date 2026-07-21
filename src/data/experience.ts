@@ -9,14 +9,15 @@ export const experience: Experience[] = [
   {
     id: "exp-afrl",
     company: "U.S. Air Force Research Laboratory (AFRL)",
-    role: "AI/ML Engineer Intern",
+    role: "AI Engineer Intern",
     period: "Jun 2026 — Present",
     logo: "/logos/afrl.png",
     summary:
       "Designing and testing AI/ML systems and foundation models for multimodal datasets.",
     highlights: [
-      "Built Knowledge Graphs, Vector, and Vectorless based RAG pipelines.",
-      "LoRA finetuning of LLMs for AFRL's multi-modal datasets.",
+      "Built vector, vectorless, and knowledge graph (KG) RAG pipelines using local ollama models and LoRA fine-tuning.",
+      "Achieved 95% KG rescue rate when Vectorless pipeline missed docs by adding KG fallback+merge hybrid path.",
+      "Built an admin pipeline turning preference judgments into curated training data for offline LoRA fine tuning."
     ],
     tech: ["Python", "PyTorch", "AI/ML"],
   },
